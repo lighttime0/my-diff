@@ -1,5 +1,7 @@
+CC=clang++
+
 my-diff : main.cpp
-	g++ main.cpp -o my-diff
+	$(CC) main.cpp -o my-diff
 
 .PHONY : clean
 

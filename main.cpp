@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 	if (argc != 3) {
 		std::cout << "usage: \n";
 		std::cout << "\t my_diff src1 src2 \n";
-		return 1;
+		return 0;
 	}
 
 	std::ifstream src1(argv[1]);
