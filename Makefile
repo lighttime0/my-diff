@@ -1,9 +1,9 @@
-CC?= gcc
+CC ?= g++
 
-my-diff : main.c
-	$(CC) main.c -o my-diff
+my-diff : main.cpp
+	$(CC) main.cpp -o my-diff
 
 .PHONY : clean
 
 clean :
-	rm my-diff diff_*
+	rm my-diff diff*
